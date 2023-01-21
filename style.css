@@ -1,0 +1,172 @@
+a {
+  text-decoration: none;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-family: Arial, "sans-serif";
+  background: white;
+  color: #3d4056;
+  margin: 0px;
+}
+
+ul {
+  list-style-type: none;
+  overflow: auto;
+  padding: 0px;
+  margin: 0px;
+  display: flex;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+ul li {
+  position: relative; 
+  padding: 15px 15px 25px 15px; 
+}
+
+ul li a {
+  position: relative; 
+  display: flex; 
+  font-family: Arial, "sans-serif";
+  font-size: 18px;
+  color: #0c3a57; 
+  font-weight: 550;
+  padding: 0px;
+  margin: 0px;
+  margin-top: 10px;
+  padding-bottom: 10px;
+  border-bottom: 3px solid transparent;
+}
+
+nav {
+  display: block;
+}
+
+header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  background: white;
+  padding-top: 5px;
+}
+
+header::before {
+  background: white;
+}
+
+.Logo {
+  margin-left: 1%;
+  align-items: flex-start;
+}
+
+ul li a:hover {
+  padding-bottom: 10px;
+  animation: fadeunderline 1s;
+}
+
+@keyframes fadeunderline {
+  0% {border-bottom: 3px solid transparent;}
+  100% {border-bottom: 3px solid #144666;}
+}
+
+body {
+  background: white;
+}
+
+
+
+
+
+
+h1 {
+  text-align: center;
+  font-size: 60px;
+  margin: 0px;
+  padding: 30px 0px 30px 0px;
+  background: #ededed;
+}
+
+.marginbox {
+  margin-right: 15%;
+  margin-left: 15%;
+  margin-top: 35px;
+  margin-bottom: 35px;
+}
+
+h3 {
+  text-align: left;
+  font-size: 27px;
+  font-weight: 300;
+  margin: 0px;
+  padding-top: 5px;
+  padding-bottom: 10px;
+}
+
+h4 {
+  text-align: left;
+  font-size: 20px;
+  font-weight: 200;
+  margin: 0px;
+  line-height: 26px;
+}
+
+h4 ol {
+  margin: 0px;
+}
+
+hr {
+  margin-right: 10%;
+  margin-left: 10%;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  background-color: #c3c5c9;
+  height: 2px;
+  border: 0px solid transparent;
+}
+
+.imagee {
+  margin: 15px;
+}
+
+.centerr {
+  display: flex;
+  justify-content: center;
+  place-items: center;
+}
+
+a {
+  text-align: left;
+  font-size: 20px;
+  font-weight: 200;
+  margin: 0px;
+  line-height: 26px;
+  color: #3759bf;
+}
+
+.mtlr {
+  column-count: 3;
+  margin-right: 5%;
+  margin-left: 5%;
+}
+
+.mtlc {
+  justify-content: center;
+  place-items: center;
+  text-align: center;
+}
+
+.mtlc h4 {
+  text-align: center;
+  margin: 0px;
+}
+
+.mtlc h5 {
+  text-align: center;
+  margin: 0px;
+  font-size: 18px;
+  font-weight: 200;
+  line-height: 27px;
+  color: #52556b;
+}
